@@ -10,9 +10,9 @@ The main objective of this analysis is to help W. Avy determine if the surf and 
 
 After performing this analysis we can observe that the temperatures in June and December have these key differences: 
 
-1) There is a 9F degree difference between June and December on the min observed temperature
-2) There is only a 2F degree difference between June and December on the max observed tempreature
-3) There is only a 3F degree difference between the average temperatures between June and December. 
+- There is a 9F degree difference between June and December on the min observed temperature
+- There is only a 2F degree difference between June and December on the max observed tempreature
+- There is only a 3F degree difference between the average temperatures between June and December. 
 
 
 ## Summary
@@ -62,7 +62,7 @@ Additional queries:
      session.query(extract('year',Measurement.date),func.avg(Measurement.tobs))\
     .filter(extract('month',Measurement.date) == '12').group_by(extract('year',Measurement.date)).all()
   ```
-3) Bringing additional information per station to observe if maybe there was any important variations by station
+2) Bringing additional information per station to observe if maybe there was any important variations by station
   - For December
   ```python
     session.query(Measurement.station,func.avg(Measurement.prcp),func.avg(Measurement.tobs))\
