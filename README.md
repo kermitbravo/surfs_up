@@ -23,7 +23,8 @@ Historically, it seems like there is really not a lot of variation between the t
 
 #### June 
 
-| Tempreatures Observed|
+Tempreatures Observed 
+| Metric| Value        |  
 |-------|--------------|
 | count	| 1700.000000  |
 | mean	| 74.944118    |
@@ -37,7 +38,8 @@ Historically, it seems like there is really not a lot of variation between the t
 
 #### December
 
-| Tempreatures Observed|
+Tempreatures Observed 
+| Metric| Value        |  
 |-------|--------------|
 | count	| 1517.000000  |
 | mean	| 71.041529    |
